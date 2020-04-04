@@ -13,6 +13,8 @@
 		9DA766802438F17E00199481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA7667F2438F17E00199481 /* Assets.xcassets */; };
 		9DA766832438F17E00199481 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA766822438F17E00199481 /* Preview Assets.xcassets */; };
 		9DA766862438F17E00199481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA766842438F17E00199481 /* LaunchScreen.storyboard */; };
+		9DA766922438F57100199481 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DA766912438F57100199481 /* Pacifico-Regular.ttf */; };
+		9DA766942439126400199481 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA766932439126400199481 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9DA766822438F17E00199481 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9DA766852438F17E00199481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DA766872438F17E00199481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA766912438F57100199481 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		9DA766932439126400199481 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		9DA766782438F17700199481 /* AllanCard */ = {
 			isa = PBXGroup;
 			children = (
+				9DA766902438F54F00199481 /* New Group */,
 				9DA766792438F17700199481 /* AppDelegate.swift */,
 				9DA7667B2438F17700199481 /* SceneDelegate.swift */,
 				9DA7667D2438F17700199481 /* ContentView.swift */,
+				9DA766932439126400199481 /* InfoView.swift */,
 				9DA7667F2438F17E00199481 /* Assets.xcassets */,
 				9DA766842438F17E00199481 /* LaunchScreen.storyboard */,
 				9DA766872438F17E00199481 /* Info.plist */,
@@ -73,6 +79,14 @@
 				9DA766822438F17E00199481 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DA766902438F54F00199481 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				9DA766912438F57100199481 /* Pacifico-Regular.ttf */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DA766862438F17E00199481 /* LaunchScreen.storyboard in Resources */,
+				9DA766922438F57100199481 /* Pacifico-Regular.ttf in Resources */,
 				9DA766832438F17E00199481 /* Preview Assets.xcassets in Resources */,
 				9DA766802438F17E00199481 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DA766942439126400199481 /* InfoView.swift in Sources */,
 				9DA7667A2438F17700199481 /* AppDelegate.swift in Sources */,
 				9DA7667C2438F17700199481 /* SceneDelegate.swift in Sources */,
 				9DA7667E2438F17700199481 /* ContentView.swift in Sources */,
